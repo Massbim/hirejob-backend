@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "*",
+    origin: "https://hirejob-snowy.vercel.app",
   })
 );
 app.use(morgan("dev"));
